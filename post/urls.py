@@ -1,5 +1,8 @@
 from django.urls import path
-from .views import PostListCreateView, PostDetailAPIView, CategoryListCreateView, CommentListCreateView, CommentAPIView, TagListCreateView
+from .views import (
+    PostListCreateView, PostDetailAPIView,
+    CategoryListCreateView, CommentListCreateView,
+    CommentAPIView, TagListCreateView )
 
 
 app_name = 'post'
